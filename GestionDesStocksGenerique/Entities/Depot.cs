@@ -4,7 +4,7 @@ namespace GestionDesStocksGenerique.Entities;
 
 public class Depot<T> : IDepot<T>
 {
-    protected List<T> _stock = new List<T>();
+    private List<T> _stock = new List<T>();
     public void Ajouter(T element)
     {
         _stock.Add(element);
@@ -21,4 +21,13 @@ public class Depot<T> : IDepot<T>
     }
 
     public int NombreElements { get => _stock.Count;}
+
+    public void Afficher()
+    {
+        Console.WriteLine($"Contenu du dépôt :");
+        foreach (var item in _stock)
+        {
+            Console.WriteLine(item.ToString());
+        }
+    }
 }
