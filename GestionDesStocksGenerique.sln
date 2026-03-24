@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionDesStocksGenerique", "GestionDesStocksGenerique\GestionDesStocksGenerique.csproj", "{1B7825C6-F661-428F-A852-547A2958A5BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate_exo", "Delegate_exo\Delegate_exo.csproj", "{1740AB16-CA14-4193-B051-4DBAA4179D5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1B7825C6-F661-428F-A852-547A2958A5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B7825C6-F661-428F-A852-547A2958A5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B7825C6-F661-428F-A852-547A2958A5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1740AB16-CA14-4193-B051-4DBAA4179D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1740AB16-CA14-4193-B051-4DBAA4179D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1740AB16-CA14-4193-B051-4DBAA4179D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1740AB16-CA14-4193-B051-4DBAA4179D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
